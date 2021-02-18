@@ -48,7 +48,6 @@ body{
     color:black;
 overflow-x: hidden;
 height: 100%;;
-overflow: hidden;
 }
 .hero{
     background: linear-gradient(45deg, var(--gradient-color1) 0%, var(--gradient-color2) 30%, var(--gradient-color2) 100%);
