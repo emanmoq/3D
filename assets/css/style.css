@@ -54,6 +54,7 @@ header{
     width:100%;
     top:0;
     padding-top:20px;
+    z-index: 99999999999;
 }
 .hero{
     background: linear-gradient(45deg, var(--gradient-color1) 0%, var(--gradient-color2) 30%, var(--gradient-color2) 100%);
@@ -436,6 +437,10 @@ font-size:17px;
     body{
         font-size:12px
     }
+    .navbar-collapse.collapse{
+        width: 100%;
+        background-color: var(--gradient-color2)
+    }
     .owl-carousel .owl-stage-outer{
     overflow: hidden;
 }
@@ -445,6 +450,7 @@ font-size:17px;
     }
     .hero{
         padding:20px 0;
+        padding-top:150px;
     }
     header .subscribeBox{
         width:100%;
@@ -548,6 +554,7 @@ margin-bottom:50px;
     }
     .heroSection{
         padding: 50px 0;
+        
     }
    .services .borderd-bottom ,.borderLeft{
         border:0;
