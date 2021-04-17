@@ -49,10 +49,16 @@ body{
 overflow-x: hidden;
 height: 100%;;
 }
+header{
+    position: fixed;
+    width:100%;
+    top:0;
+    padding-top:20px;
+}
 .hero{
     background: linear-gradient(45deg, var(--gradient-color1) 0%, var(--gradient-color2) 30%, var(--gradient-color2) 100%);
     background-size: cover;
-    padding-top:70px;
+    padding-top:200px;
     position: relative;
     overflow: hidden;
     padding-bottom:170px;
